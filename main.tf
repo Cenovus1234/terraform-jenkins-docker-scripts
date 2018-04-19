@@ -13,6 +13,7 @@ resource "aws_eip" "default" {
 resource "aws_security_group" "default" {
   name        = "jenkins-docker"
   description = "Used in the terraform"
+  }
 
   # SSH access from anywhere
   ingress {
