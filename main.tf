@@ -57,7 +57,7 @@ resource "aws_security_group" "default" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
-}
+
 
 resource "aws_instance" "web" {
   instance_type = "t2.micro"
